@@ -1,0 +1,77 @@
+palette = "catppuccin_mocha"
+format = """
+[░▒▓](pink)\
+[ <3](fg:bold text bg:pink)\
+[](fg:pink bg:mauve )\
+$directory\
+[](fg:mauve bg:blue)\
+$git_branch\
+$git_status\
+[](fg:blue bg:lavender)\
+$nodejs\
+$rust\
+$golang\
+$php\
+[](fg:lavender)\
+$character
+"""
+[directory]
+style = "fg:bold text bg:mauve"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+[git_branch]
+symbol = ""
+style = "bg:blue"
+format = '[[ $symbol $branch ](fg:bold text bg:blue)]($style)'
+[git_status]
+style = "bg:blue"
+format = '[[($all_status$ahead_behind )](fg:bold text bg:blue)]($style)'
+[nodejs]
+symbol = ""
+style = "bg:lavender"
+format = '[[ $symbol ($version) ](fg:bold text bg:lavender)]($style)'
+[rust]
+symbol = ""
+style = "bg:lavender"
+format = '[[ $symbol ($version) ](fg:bold text bg:lavender)]($style)'
+[golang]
+symbol = ""
+style = "bg:lavender"
+format = '[[ $symbol ($version) ](fg:bold text bg:lavender)]($style)'
+[php]
+symbol = ""
+style = "bg:lavender"
+format = '[[ $symbol ($version) ](fg:bold text bg:lavender)]($style)'
+[character]
+success_symbol = "[ ❯](lavender)"
+error_symbol = "[ ❯](red)"
+vimcmd_symbol = "[ ❮](green)"
+[palettes.catppuccin_mocha]
+rosewater = "#F5E0DC"
+flamingo = "#F2CDCD"
+pink = "#F5C2E7"
+mauve = "#CBA6F7"
+red = "#F38BA8"
+maroon = "#EBA0AC"
+peach = "#FAB387"
+yellow = "#F9E2AF"
+green = "#A6E3A1"
+teal = "#94E2D5"
+sky = "#89DCEB"
+sapphire = "#74C7EC"
+blue = "#89B4FA"
+lavender = "#B4BEFE"
+# text = "#CDD6F4"
+subtext1 = "#BAC2DE"
+subtext0 = "#A6ADC8"
+overlay2 = "#9399B2"
+overlay1 = "#7F849C"
+overlay0 = "#6C7086"
+surface2 = "#585B70"
+surface1 = "#45475A"
+surface0 = "#313244"
+base = "#1E1E2E"
+mantle = "#181825"
+crust = "#11111B"
+text = "#1E1E2E" 
