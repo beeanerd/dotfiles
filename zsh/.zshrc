@@ -136,3 +136,28 @@ export PATH=/opt/homebrew/anaconda3/bin:$PATH
 
 export XDG_CONFIG_HOME="$HOME/.config"
 eval "$(starship init zsh)"
+
+[ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
+
+
+# PATH="/Users/awhitlock/perl5/bin${PATH:+:${PATH}}"; export PATH;
+# PERL5LIB="/Users/awhitlock/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+# PERL_LOCAL_LIB_ROOT="/Users/awhitlock/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+# PERL_MB_OPT="--install_base \"/Users/awhitlock/perl5\""; export PERL_MB_OPT;
+# PERL_MM_OPT="INSTALL_BASE=/Users/awhitlock/perl5"; export PERL_MM_OPT;
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+# __conda_setup="$('/Users/awhitlock/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/Users/awhitlock/anaconda3/etc/profile.d/conda.sh" ]; then
+#         . "/Users/awhitlock/anaconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/Users/awhitlock/anaconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+# <<< conda initialize <<<
+
